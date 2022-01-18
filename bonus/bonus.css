@@ -1,0 +1,13 @@
+.heart{
+  display: none;
+}
+.containers:hover .heart{
+  display: inline;
+}
+.containers:active .heart{
+  color: red;
+}
+.containers:hover{
+  background-color: gray;
+  color: lightskyblue;
+}
