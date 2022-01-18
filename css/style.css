@@ -13,6 +13,7 @@ main{
   height: 360px;
   background-color: chartreuse;
   display: inline-block;
+  position: relative;
 }
 .row{
   text-align: center;
@@ -33,4 +34,33 @@ main{
 }
 .bold{
   font-weight: 900;
+}
+.s-contain{
+  height: 13px;
+  font-size: 0.5em;
+  line-height: 13px;
+  padding: 1px;
+}
+.discount{
+  background-color: red;
+  left: 0;
+  bottom: 10px;
+}
+.info{
+  background-color: green;
+  left: 23px;
+  bottom: 10px;
+}
+.heart{
+  background-color: white;
+  top: 10px;
+  right: 0;
+  width: 20px;
+  padding: 3px;
+}
+.absolute{
+  position: absolute;
+}
+.col-white{
+  color: white;
 }
