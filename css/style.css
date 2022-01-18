@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  margin: 0 auto;
+  width: 900px;
+  height: 100vh;
+}
+.containers{
+  margin: 10px 7px 0 0;
+  height: 360px;
+  background-color: chartreuse;
+  display: inline-block;
+}
+.row{
+  text-align: center;
+}
+.containers>img{
+  height: 100%;
+}
+.description{
+  margin-top: 0;
+  text-align: left;
+  font-size: 0.7em;
+}
+.final-price{
+  color: red;
+}
+.old-price{
+  text-decoration: line-through;
+}
+.bold{
+  font-weight: 900;
+}
