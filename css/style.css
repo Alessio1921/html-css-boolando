@@ -64,3 +64,12 @@ main{
 .col-white{
   color: white;
 }
+.second-prod{
+  display: none;
+}
+.containers:hover .second-prod{
+  display: inline;
+}
+.containers:hover .first-prod{
+  display: none;
+}
