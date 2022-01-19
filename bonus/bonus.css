@@ -7,7 +7,7 @@
 .containers:active .heart{
   color: red;
 }
-.containers:hover{
+/* .containers:hover{
   background-color: gray;
   color: lightskyblue;
-}
+} */
